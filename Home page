@@ -1,0 +1,83 @@
+<html>
+<head>
+<body>
+<title>Hyperlink reference</title>
+<style>
+body{
+background-color:Dodgerblue;
+font-family:Arial;}
+ul li{
+list-style-type:none;}
+ul li a:link{
+font-family:Arial;
+text-decoration:underline;}
+ul li a:hover{
+color:red;}
+</style>
+<img src="Images/PSREC.jfif" alt="image" width="200" height="200">
+<h1>P.S.R. ENGINEERING COLLEGE,SIVAKASI</h1>
+<ul>
+<li><a href="About.html">About us</a></li>
+<li><a href="Service.html">Service us</a></li>
+<li><a href="Contact.html">Contact us</a></li>
+</ul>
+</body>
+</head>
+</html>
+
+
+About.html :
+<html>
+<head>
+<body>
+<title>About us</title>
+<style>
+body{
+background-color:Dodgerblue;}
+h1{
+font-family:Arial;
+font-style:bolder;}
+</style>
+<h1>P.S.R. ENGINEERING COLLEGE is one of the 99 colleges in Tamilnadu with NAAC A+ grade.</h1>
+<h1>This instituition has collaborated with world class companies.</h1>
+<h1>Recently, In academic year 2020-2021 the Engineering students may got placement in Sonline Company, USA with abroad internship.</h1>
+<h1>When the students studied this instituition they get placement & this instituition give 100% guarantee for the student's bright future.</h1>
+</body>
+</head>
+</html>
+Service.html :
+<html>
+<head>
+<body>
+<title>Service us</title>
+<style>
+body{
+background-color:Dodgerblue;}
+h1{
+font-family:Arial;
+font-style:bold;}
+</style>
+<h1>P.S.R. ENGINEERING COLLEGE has good Transport facilities, Water facilities, Hostel facilities, Environmental classrooms & Air conditioned laboratories, Food facilities, Library & Digital Library.</h1>
+<h1>In P.S.R. ENGINEERING COLLEGE has started P.S.R. CENTRE OF EXCELLENCE for give the placement training to the engineering students from world class companies & get 100% job opportunity.</h1>
+</body>
+</head>
+</html>
+Contact.html :
+<html>
+<head>
+<body>
+<title>Contact</title>
+<style>
+body{background-color:Dodgerblue;}
+</style>
+<address>
+<h1>For admissions contact:</h1>
+<h1>P.S.R. ENGINEERING COLLEGE,</h1>
+<h1>SEVALPATTI(P.O),</h1>
+<h1>SIVAKASI - 626140.</h1>
+<h1>PHONE NO : 80125 31321</h1>
+<h1>WEBSITE : https://psr.edu.in</h1>
+</address>
+</body>
+</head>
+</html>
