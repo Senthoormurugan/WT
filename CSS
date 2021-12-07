@@ -1,0 +1,47 @@
+<html>
+<body style="background-color:Powderblue;">
+<h1 style="color:red;font-family:Rockwell">I'm Jeevamukesh</h1>
+<p style="color:black;font-family:Rockwell;font-size:25px;">studying in 3rd year CSE</p>
+</body>
+</html>
+CSS – 2.html :
+<html>
+<head>
+<style>
+body{
+background-color:Powderblue;}
+h1{
+color:red;
+font-family:Rockwell;}
+p{
+color:black;
+font-family:Rockwell;
+font-size:35px;}
+</style>
+</head>
+<body>
+<h1>I'm Jeevamukesh</h1>
+<p>studying 3rd year CSE</p>
+</body>
+</html>
+
+CSS – 3.html :
+<html>
+<head>
+<link rel=”stylesheet” text=”type/css” href=”style.css”>
+</head>
+<body>
+<h1>I'm Jeevamukesh</h1>
+<p>studying 3rd year CSE</p>
+</body>
+</html>
+style.css :
+body{
+background-color:Powderblue;}
+h1{
+color:red;
+font-family:Rockwell;}
+p{
+color:black;
+font-family:Rockwell;
+font-size:28px;}
