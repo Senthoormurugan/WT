@@ -1,0 +1,27 @@
+<?xml-stylesheet type="text/css" href="Code.css"?>
+<note>
+<heading>P.S.R. Engineering College,Sivakasi</heading>
+<to>Accredicted by NAAC with A+ Grade</to>
+<from>Afilitated to Anna University,Chennai</from>
+<body>This instituition has 23 years of excellence</body>
+</note>
+
+
+
+Code.css :
+note{
+background-color:orange;
+font-family:Arial Narrow;
+font-weight:bolder;}
+heading{
+background-color:darkcyan;
+color:white;}
+to,from{
+background-color:brown;
+color:white;
+font-family:Palatino Linotype;}
+body{
+background-color:purple;
+font-family:Trebuchet MS;
+color:white;}
+
