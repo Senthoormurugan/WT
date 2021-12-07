@@ -1,0 +1,22 @@
+<html>
+<body>
+<h2>The XMLHttpRequest Object</h2>
+<div id="demo">
+<p>Let AJAX change this text.</p>
+<button type="button" onclick="loadDoc()">Change Content</button>
+<script>
+function loadDoc() {
+const xhttp = new XMLHttpRequest();
+xhttp.onload=function() {
+document.getElementById("demo").innerHTML=xhttp.responseText; }
+xhttp.open("GET", "ajax_info.txt");
+xhttp.send(); }
+</script>
+</body>
+</html>
+
+ajax_info.txt :
+<p>AJAX is not a programming language.</p>
+<p>AJAX is a technique for accessing webservers from webpage.</p>
+<p>AJAX stands for Asynchronous Javascript & XML</p>
+
