@@ -1,0 +1,57 @@
+<html>
+<head>
+<body>
+<title>HTML Tables</title>
+<style>
+table,th,td{
+border:1px solid black;
+border-collapse:collapse;
+text-align:center;
+cell-spacing:20px;
+padding:10px;
+padding-top:10px;
+padding-bottom:10px;}
+th:nth-child(odd){
+background-color:Tomato;}
+th:nth-child(even){
+background-color:Powderblue;}</style>
+<table>
+<colgroup>
+<col span="1" style="background-color:Tomato;">
+<col span="1" style="background-color:Powderblue;">
+<col span="1" style="background-color:Tomato;">
+<col span="2" style="background-color:Powderblue;">
+<col span="1" style="background-color:Tomato;">
+<col span="1" style="background-color:Powderblue;"></colgroup>
+<tr>
+<th>Name</th>
+<th style="width:2%;">S.No</th>
+<th>Educational Qualification</th>
+<th colspan="2">Instituition name & Board of study</th>
+<th>Percentage of marks</th>
+<th>Year of passing</th></tr>
+<tr>
+<td rowspan="3">M.Jeevamukesh</td>
+<td>1</td>
+<td>SSLC</td>
+<td>Nadar.Hr.Sec.School,Rajapalayam</td>
+<td>State board</td>
+<td>97%</td>
+<td>2016-2017</td></tr>
+<tr>
+<td>2</td>
+<td>HSC - 1st year</td>
+<td>Nadar.Hr.Sec.School,Rajapalayam</td>
+<td>State board</td>
+<td>79.16%</td>
+<td>2017-2018</td></tr>
+<tr>
+<td>3</td>
+<td>HSC - 2nd year</td>
+<td>Nadar.Hr.Sec.School,Rajapalayam</td>
+<td>State board</td>
+<td>81%</td>
+<td>2018-2019</td></tr>
+</body>
+</head>
+</html>
