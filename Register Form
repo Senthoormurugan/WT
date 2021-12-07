@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Registration form</title>
+<script type="text/javascript" src="Login.js"></script>
+<style>
+body{
+background-color:darkgreen;
+color:white; }
+h1,form{
+font-family:Cambria Math;
+font-size:25px;
+font-weight:bolder; }
+</style>
+</head>
+<body>
+<center>
+<h1>Registration form</h1>
+</center>
+<form>
+<center>
+<label>Name:</label>
+<input type='name' placeholder="">
+<br/><br/>
+<label>Age:</label>
+<input type='number' placeholder="">
+<br/><br/>
+<label>D.O.B.:</label>
+<input type='text' placeholder="">
+<br/><br/>
+<label>Instituiton name:</label>
+<input id='text' placeholder="">
+<br/><br/>
+<label>Which group did you studied:</label>
+<input type="radio" name="group" value="Maths Bio">
+<label>Maths Bio</label>
+<input type="radio" name="group" value="Maths CS">
+<label>Maths CS</label>
+<input type="radio" name="group" value="Diploma">
+<label>Diploma</label>
+<br/><br/>
+<label>Cut off marks in +2:</label>
+<input id='number' placeholder="">
+<br/><br/>
+<label>Which Department did you want to join?:</label>
+<select>
+<option>CSE</option>
+<option>EEE</option>
+<option>ECE</option>
+<option>CIVIL</option>
+<option>MECHANICAL</option>
+<option>BIOTECH</option>
+<option>BIOMEDICAL</option>
+<option>MBA</option>
+</select>
+<br/><br/>
+<button type="button" onclick="Login()">Submit</button>
+</center>
+</form>
+</body>
+</html>
+
+Login.js :
+function Login() {
+document.write("<script type=text/javascript src=Submit.js></script>")
+document.write("<label>Username:</label><input type=text><br/><br/>");
+document.write("<label>Password:</label><input type=password><br/><br/>");
+document.write("<button type=button onclick=Submit()>Login</button>"); 
+}
+
+Submit.js :
+function Submit() {
+document.write("<h1>Login successfully</h1>");  
+}
