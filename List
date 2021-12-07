@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Ordered list</title>
+<style>
+body{
+background-color:brown;
+color:white;
+font-family:Rockwell;
+font-size:25px;
+text-transform:uppercase;
+}
+</style>
+</head>
+<body>
+<ol>
+<li>HTML - Hyper Text Markup Language</li>
+<li>CSS - Cascading Style Sheet</li>
+<li>UML - Unified Modeling Language</li>
+<li>SQL - Structured Query Language</li>
+</ol>
+</body>
+</html>
+List – 2.html :
+<html>
+<head>
+<title>Unordered list</title>
+<style>
+body{
+background-color:darkcyan;
+color:white;
+font-family:Century gothic;
+font-size:25px;
+text-transform:uppercase;
+}
+</style>
+</head>
+<body>
+<ul>
+<li>HTML - Hyper Text Markup Language</li>
+<li>CSS - Cascading Style Sheet</li>
+<li>UML - Unified Modeling Language</li>
+<li>SQL - Structured Query Language</li>
+</ul>
+</body>
+</html>
+List – 3.html :
+<html>
+<head>
+<title>Description list</title>
+<style>
+body{
+background-color:magenta;
+color:white;
+font-family:Trebuchet MS;
+font-size:25px;
+text-transform:uppercase;
+}
+</style>
+</head>
+<body>
+<dl>
+<dt>HTML:</dt>
+<dd>HTML - Hyper Text Markup Language</dd>
+<br/>
+<dt>CSS:</dt>
+<dd>CSS- Cascading Style Sheet</dd>
+<br/>
+<dt>UML:</dt>
+<dd>UML- Unified Modeling Language</dd>
+<br/>
+<dt>SQL:</dt>
+<dd>SQL - Structured Query Language</dd>
+<br/>
+</dl>
+</body>
+</html>
