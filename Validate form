@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Student Record</title>
+<script type="text/javascript" src="Student Record.js">
+</script>
+<style>
+body{
+background-color:darkgreen;
+color:white;}
+h1,form{
+font-family:Rockwell;
+font-size:20px;
+font-weight:bolder;}
+</style>
+</head>
+<body>
+<center>
+<h1>Student Record</h1>
+</center>
+<form>
+<center>
+<label>Enter Name:</label>
+<input type='name' placeholder="">
+<br/><br/>
+<label>Enter Rollno:</label>
+<input type='number' placeholder="">
+<br/><br/>
+<label>Enter D.O.B.:</label>
+<input type='date' placeholder="">
+<br/><br/>
+<label>Enter Programme:</label>
+<input type='name' placeholder="">
+<br/><br/>
+<label>Enter Mark1:</label>
+<input id='first' placeholder="">
+<br/><br/>
+<label>Enter Mark2:</label>
+<input id='second' placeholder="">
+<br/><br/>
+<label>Enter Mark3:</label>
+<input id='third' placeholder="">
+<br/><br/>
+<button type="button" onclick="calculate()">Submit</button>
+<p id="Record"></p>
+</center>
+</form>
+</body>
+</html>
+Student Record.js :
+function calculate() {
+var m,n,p,total,avg;
+m=Number(document.getElementById("first").value);
+n=Number(document.getElementById("second").value);
+p=Number(document.getElementById("third").value);
+total=m+n+p;
+avg=total/3;
+document.write("<b>"+"Total:"+total+"</b>"+"<br/>");
+document.write("<b>"+"Average:"+avg+"</b>"+"<br/>");
+if(avg>50) {
+document.write("<b>"+"The result is pass"+"</b>"); }
+else {
+document.write("<b>"+"The result is fail"+"</b>"); }
+document.write("<title>Student Record</title><style>body{background-color:darkgreen;color:white;font-family:Rockwell;font-size:25px;}</style>"); }
