@@ -1,0 +1,37 @@
+<?xml-stylesheet type="text/css" href="Products.css"?>
+<lists>
+<heading>Grocery list</heading>
+<list>
+<product>Ponds Powder - Rs.100</product>
+</list>
+<list>
+<product>AAC Ghee - Rs.150</product>
+</list>
+<list>
+<product>Idhayam Gingery Oil - Rs.35.50</product>
+</list>
+<list>
+<product>Sakthi Biriyani Powder - Rs.30</product>
+</list>
+<list>
+<list>
+<product>Sakthi Chilli Powder - Rs.25</product>
+</list>
+<list>
+<product>Parachute Coconut Oil - Rs.100</product>
+</list>
+</lists>
+
+Products.css :
+lists{
+background-color:powderblue;
+width:100%; }
+heading{
+background-color:brown;
+font-size:50px; }
+heading,product{
+display:block; }
+
+product{
+font-weight:bolder;
+font-family:Courier new; }
